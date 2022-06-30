@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Défi JS - 20</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <div class="container">
+        <div class="d-flex justify-content-between mb-3">
+
+            <div class="logo-acs"><img
+                    src="https://www.accesscodeschool.fr/wp-content/uploads/2018/10/logo_acs_noir.png"
+                    style="max-height: 66px; max-width: 200px;" />
+            </div>
+
+
+            <div class="logo-ofp"> <img src="https://www.onlineformapro.com/wp-content/uploads/2020/01/logo-03.svg"
+                    style="max-height: 66px; max-width: 200px;" />
+            </div>
+
+        </div>
+
+
+
+
+        <div class="jumbotron">
+            <h1 class="mb-3" style="width:100%">Defi JS - 20</h1>
+            <p>Chechons Charlie, cependant il est bien caché. C'est pouquoi il vous est demandé dans ce défi de gérer le zoom sur l'image, ainsi que son déplacement à la souris.</p>
+
+
+        </div>
+
+        <div id="resultat" class="row" style=" height:45vh; overflow: hidden;">
+            <img id="draggable" class="zoom ui-widget-content" src="https://123sonography.com/sites/default/files/article/images/2_Waldo_Illustration.png" width="100%">
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+<script>
+    const zoomElement = document.querySelector(".zoom");
+    let zoom = 1;
+    const ZOOM_SPEED = 0.1;
+
+    document.addEventListener("wheel", function (e) {
+      if (e.deltaY > 0) {
+        zoomElement.style.transform = `scale(${(zoom += ZOOM_SPEED)})`;
+      } else {
+        zoomElement.style.transform = `scale(${(zoom -= ZOOM_SPEED)})`;
+      }
+    });
+    $( function() {
+          $( "#draggable" ).draggable({
+          });
+        } );
+</script>
+</body>
+</html>
