@@ -1,11 +1,8 @@
 /*============================== Font ==============================*/
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans&family=Molengo&family=Montserrat+Alternates&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-}
 body{
+  width: auto;
   font-family: 'Martel Sans', sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -23,27 +20,25 @@ header{
   height: 100vh;
   color: white;
 }
-.pad{
-  padding-top: 250px;
-}
-.navbar{
-  background-color: rgba(0, 0, 0, 0.66);
-}
+.pad{padding-top: 250px;}
+.navbar{background-color: rgba(0, 0, 0, 0.66);}
 .color{color: #85357e;}
-.colorbis{color: #210f43;}
-.passion{font-family: 'Mogra', cursive;}
+.colorbis{color: #6327d2;}
+.passion{font-family: 'Mogra', cursive; font-size: 2rem;}
+.devh2{font-size: 2.8rem;}
+.colorprogress{background-color: #6327d2 !important;}
+.imgcolor{ color: #6327d2 !important;}
+.php{margin-left: -8px; padding-right: 5px;}
 h1{
-  font-size: 8rem !important;
+  font-size: 5rem !important;
   color: white;
   font-family: 'Molengo', sans-serif;
 }
 h2{
-  font-size: 5rem !important;
   color: white;
   font-family: 'Montserrat Alternates', sans-serif;
 }
 h3{
-  font-size: 3rem !important;
   color: white;
   font-family: 'Montserrat Alternates', sans-serif;
 }
