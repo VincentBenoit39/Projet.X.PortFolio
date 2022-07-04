@@ -7,12 +7,8 @@ body{
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-li{
-    list-style-type: none;
-  }
-a{
-    text-decoration: none;
-  }
+li{list-style-type: none;}
+a{text-decoration: none;}
 /*============================== Title ==============================*/
 header{
   background: url(../img/bureau.png)  no-repeat bottom center #000;
@@ -41,6 +37,10 @@ h2{
 h3{
   color: white;
   font-family: 'Montserrat Alternates', sans-serif;
+}
+.textap{
+  font-size: 1.2rem;
+  font-family: 'Martel Sans', sans-serif;
 }
 /*============================== Img ==============================*/
 
