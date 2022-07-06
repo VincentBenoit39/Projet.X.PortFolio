@@ -1,46 +1,5 @@
-/*============================== Font ==============================*/
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans&family=Molengo&family=Montserrat+Alternates&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
-body{
-  width: auto;
-  font-family: 'Martel Sans', sans-serif;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-li{list-style-type: none;}
-a{text-decoration: none;}
-/*============================== Title ==============================*/
-header{
-  background: url(../img/bureau.png)  no-repeat bottom center #000;
-  width: 100%;
-  height: 100vh;
-  color: white;
-}
-.pad{padding-top: 250px;}
-.navbar{background-color: rgba(0, 0, 0, 0.66);}
-.color{color: #85357e;}
-.colorbis{color: #6327d2;}
-.passion{font-family: 'Mogra', cursive; font-size: 2rem;}
-.devh2{font-size: 2.8rem;}
-.colorprogress{background-color: #6327d2 !important;}
-.imgcolor{ color: #6327d2 !important;}
-.php{margin-left: -8px; padding-right: 5px;}
-h1{
-  font-size: 5rem !important;
-  color: white;
-  font-family: 'Molengo', sans-serif;
-}
-h2{
-  color: white;
-  font-family: 'Montserrat Alternates', sans-serif;
-}
-h3{
-  color: white;
-  font-family: 'Montserrat Alternates', sans-serif;
-}
-.textap{
-  font-size: 1.2rem;
-  font-family: 'Martel Sans', sans-serif;
-}
-/*============================== Img ==============================*/
-
+header{background: url(../img/bureau.png)  no-repeat bottom center #000;width: auto;height: 100vh;color: white;}a{text-decoration: none;}body{scroll-behavior: smooth;}
+.pad{padding-top: 250px;}.navbar{background-color: rgba(0, 0, 0, 0.66);}.color{color: #85357e;}.colorbis{color: #6327d2;}.passion{font-family: 'Mogra', cursive; font-size: 2rem;}.devh2{font-size: 2.8rem;}.colorprogress{background-color: #6327d2 !important;}.imgcolor{ color: #6327d2 !important;}.php{margin-left: -8px; padding-right: 5px;}h1{font-size: 5rem !important;color: white;font-family: 'Molengo', sans-serif;}h2{color: white;font-family: 'Montserrat Alternates', sans-serif;}h3{color: white;font-family: 'Montserrat Alternates', sans-serif;}p{font-family: 'Martel Sans', sans-serif;}.textap{font-size: 1.2rem;font-family: 'Martel Sans', sans-serif;}
+h4{font-family: 'Martel Sans', sans-serif;}
