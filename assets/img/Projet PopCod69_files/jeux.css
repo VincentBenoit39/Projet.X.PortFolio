@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+  color: #ffaaff;
+}
+.zoom{
+  margin: 0;
+}
+.zoom img{
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+/* ============================Modal Game Over=================*/ 
+.modalL, .modalG, .modalI, .modalW, .modalM, .modalE, .modalS{
+  display: none;
+  height:100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  background: #0000008e;
+  transition: opacity 0.4s 0.2s ease-out;
+  font-family: 'Poppins', sans-serif;
+  z-index: 2;
+}
+.modalG, .modalW{
+  background: url(../Img/jeu.jpg) center center/cover no-repeat;
+}
+.modal-GO{
+  color: red;
+  font-size: 8rem;
+}
+.modal-GO>a{
+  padding-top: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+
+/* ============================Modal Input=================*/ 
+.input{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.8rem;
+  text-align: center;
+  overflow: hidden;
+  height: 80px;
+  width: 50%;
+}
+.pInput{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  padding-top: 50px;
+  color: white;
+}
+/* ============================Modal Win=================*/ 
+.modal-Win{
+  padding-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-size: 4rem;
+}
+/* ============================Modal List=================*/ 
+.list{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.3rem;
+  text-align: center;
+
+}
+.modal-List{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  padding-top: 50px;
+  color: white ;
+}
+/* ============================Modal description=================*/ 
+.modalV{
+  display: none;
+  height:100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: #0000008e;
+  transition: opacity 0.4s 0.2s ease-out;
+  font-family: 'Poppins', sans-serif;
+  z-index: 2;
+}
+.modal-View {
+  width: 75%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  font-family: 'poppins', sans-serif;
+  animation: blurEffect 0.2s ease-in-out;
+}
+.view-img{
+  width: 250px;
+  height: 250px;
+}
+.view-name{
+  top: 20%;
+  left: 50%;
+  position: absolute;
+  font-size: 8rem;
+  height: 25%;
+  transform: translate(-50%, -50%);
+}
+.modal-View>p{
+  width: 50%;
+  max-height: 30%;
+  overflow: auto;
+}
+/* ============================Modal Mention=================*/ 
+.modal-Mention {
+  color: white;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  overflow: auto;
+  height: 70vh;
+  transform: translate(-50%, -50%);
+  padding: 0 25px;
+  font-family: 'poppins', sans-serif;
+}
+.modalM>h2{
+  color: #0AEFF7;
+  transform: translate(-10%, -50%);
+  top: 10%;
+  left: 45%;
+  position: absolute;  
+}
+/* ============================Modal start=================*/ 
+.modal-Start{
+  color: #0AEFF7;
+  width: 50%;
+  font-size: 2rem;
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: 'poppins', sans-serif;
+  animation: blurEffect 0.2s ease-in-out;
+}
+.modal-Start>h1{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.modal-Start>span{
+  padding-bottom: 20px;
+}
+
+
+/* =================top============================ */
+.close{
+  cursor: pointer;
+  position: absolute;
+  font-size: 4rem;
+  top: 100px;
+  right: 200px;
+  font-family: 'Poppins', sans-serif;
+}
+.top>.left{
+  color: white;
+  position: absolute;
+  display: flex;
+  top: 10px;
+  left: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.score{
+  padding-top: 10px;
+  color: #0AEFF7;
+  transform: rotate(270deg);
+  font-size: 0.8rem;
+}
+.score::after{
+  content: '';
+  width: 40px;
+  position: absolute;
+  top: 30px;
+  left: -5px;
+  border: solid 1px white;
+}
+.count{
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 5px;
+}
+.lost{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+  color: rgba(255, 255, 255, 0.38);
+  
+}
+.top>.right{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: url(../Img/logo.svg) center center/cover no-repeat;
+  height: 150px;
+  width: 150px;
+}
+/* ====================bottom======================== */
+
+.bottom>.left{
+  font-family: 'Poppins', sans-serif;
+}
+
+.left>span:nth-child(1){
+  color: #0AEFF7;
+  position: absolute;
+  left: 10px;
+  bottom: 230px;
+  transform: rotate(270deg);
+}
+.left>span:nth-child(2){
+  position: absolute;
+  color: white;
+  left: 28px;
+  bottom: 190px;
+}
+.left>span:nth-child(3){
+  position: absolute;
+  color: white;
+  left: 28px;
+  bottom: 20px;
+}
+.lineZoom{
+  border: 1px solid white;
+  position: absolute;
+  height: 124px;
+  left: 32px;
+  bottom: 55px;
+}
+.zoombarreblue{
+  /* border: 1px solid #0AEFF7; */
+  background: #0AEFF7;
+  width: 2px;
+  position: absolute;
+  max-height: 127px;
+  left: 32px;
+  bottom: 55px;
+}
+
+button {
+  position: absolute;
+  display: flex;
+  height: 3em;
+  bottom: 20px;
+  left: 80px;
+  color: #ffaaff;
+  border-color: #ffaaff;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  background: none;
+  padding-left: 5px;
+  padding-right: 3px;
+ }
+ button > img {
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #ffaaff;
+  border-color: #ffaaff;
+  font-size: 20px;
+  transition: all 0.2s ease-in;
+ }
+ button:hover > img {
+  font-size: 1.8em;
+  transform: rotate(360deg);
+ }
+/* ============================mention======================== */
+.mention{
+  position: absolute;
+  padding-right: 20px;
+  bottom: 10px;
+  right: 0px;
+  display: flex;
+}
+.m1>a{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  animation: none;
+  color: #ffaaff;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline;
+  text-decoration: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.m1:after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  transition: 0.5s cubic-bezier(0.72,-0.01, 0.19, 0.92);
+  background: #ffaaff;
+}
+.m1:hover:after {
+  width: 90%;
+}
+
+
+
+
