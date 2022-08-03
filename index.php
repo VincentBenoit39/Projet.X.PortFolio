@@ -26,7 +26,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
           <i class="fa-solid fa-ellipsis text-white"></i>
         </button>
-        <div class="collapse navbar-collapse order-md-1 justify-content-end"" id=" navbarSupportedContent"">
+        <div class="collapse navbar-collapse order-md-1 justify-content-end" id=" navbarSupportedContent">
           <ul class="navbar-nav my-5 my-md-0">
             <li class="nav-item text-md-star text-center">
               <a class="nav-link fs-5 text-white hov" href="#">Accueil</a>

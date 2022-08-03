@@ -1,2 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans&family=Molengo&family=Montserrat+Alternates&display=swap');@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
-header{background: url(../img/bureau.png) no-repeat center center/cover #000000;width: auto;height: 100vh;color: white;}a{text-decoration: none;}body{scroll-behavior: smooth;}.pad{padding-top: 380px;}.navbar{background-color: rgba(0, 0, 0, 0.66);}.color{color: #85357e;}.colorbis{color: #6327d2;}.passion{font-family: 'Mogra', cursive; font-size: 2rem;}.devh2{font-size: 2.8rem;}.colorprogress{background-color: #85357e !important;}.php{margin-left: -8px; padding-right: 5px;}h1{font-size: 5rem !important;color: white;font-family: 'Molengo', sans-serif;}h2{color: white;font-family: 'Montserrat Alternates', sans-serif;}h3{color: white;font-family: 'Montserrat Alternates', sans-serif;}p{font-family: 'Martel Sans', sans-serif;}.textap{font-size: 1.2rem;font-family: 'Martel Sans', sans-serif;}h4{font-family: 'Martel Sans', sans-serif;}.creatives{background: url(../img/creatives.png)  no-repeat center center/cover #000;width: auto;height: 700px;}.capgemen{background: url(../img/capgemen.png)  no-repeat center center/cover #000;width: auto;height: 700px;}.popcode{background: url(../img/popcode.svg)  no-repeat center center/cover #000;width: auto;height: 700px;}.contact .php-email-form label {padding-bottom: 8px;}.contact .php-email-form input {height: 44px;}#send>button{--color: #6327d2;font-family: inherit;display: inline-block;width: 8em;height: 2.6em;line-height: 2.5em;margin: 20px;position: relative;overflow: hidden;border: 2px solid var(--color);transition: color .5s;z-index: 1;font-size: 17px;border-radius: 50px;font-weight: 500;color: var(--color);}#send>button:before {content: "";position: absolute;z-index: -1;background: var(--color);height: 150px;width: 200px;border-radius: 50%;}#send>button:hover {color: #fff;}#send>button:before {top: 100%;left: 100%;transition: all .7s;}#send>button:hover:before {top: -30px;left: -30px;}#send>button:active:before {background: #3a0ca3;transition: background .2s;}a:hover{color: #3a0ca3;}
+header{background: url(../img/bureau.png) no-repeat center center/cover #000000;width: auto;height: 100vh;color: white;}a{text-decoration: none !important;color: #A066CB;}body{scroll-behavior: smooth;}
+.pad{padding-top: 380px;}.navbar{background-color: rgba(0, 0, 0, 0.66);}.color{color: #6327d2;}.colorbis{color: #A066CB;}.passion{font-family: 'Mogra', cursive; font-size: 2rem;}.devh2{font-size: 2.8rem;}.colorprogress{background-color: #6327d2 !important;}.php{margin-left: -8px; padding-right: 5px;}h1{font-size: 5rem !important;color: white;font-family: 'Molengo', sans-serif;}h2{color: white;font-family: 'Montserrat Alternates', sans-serif;}h3{color: white;font-family: 'Montserrat Alternates', sans-serif;}p{font-family: 'Martel Sans', sans-serif;}.textap{font-size: 1.2rem;font-family: 'Martel Sans', sans-serif;}
+h4{font-family: 'Martel Sans', sans-serif;}.creatives{background: url(../img/creatives.png)  no-repeat center center/cover #000;width: auto;height: 700px;}.capgemen{background: url(../img/capgemen.png)  no-repeat center center/cover #000;width: auto;height: 700px;}.popcode{background: url(../img/popcode.svg)  no-repeat center center/cover #000;width: auto;height: 700px;}.contact .php-email-form label {padding-bottom: 8px;}.contact .php-email-form input {height: 44px;}
+#send>button{
+  --color: #A066CB;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 50px;
+  font-weight: 500;
+  color: var(--color);}
+ #send>button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;}
+ #send>button:hover {
+  color: #fff;}
+ #send>button:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;}
+ #send>button:hover:before {
+  top: -30px;
+  left: -30px;}
+ #send>button:active:before {
+  background: #A066CB;
+  transition: background .2s;}
+.hov:hover{
+    color: #A066CB !important;
+    transition: 0.2s ease-in !important;
+  }
+.modalSend{
+  display: none;
+  height:100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  background: #0000008e;
+  transition: opacity 0.4s 0.2s ease-out;
+  font-family: 'Martel Sans', sans-serif;
+  z-index: 2;
+  }
+.success{
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 1rem;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+  }
+a:hover{
+  text-decoration: none !important;
+}
