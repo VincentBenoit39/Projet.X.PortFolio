@@ -83,3 +83,7 @@ a:hover{color:  var(--color) !important;transition: 0.2s ease-in !important;tran
 .card-wrapper>.card>.back {transform: rotateY(180deg);}
 .card-wrapper.flip-left>.card>.back {transform: rotateY(-180deg);}
 .card-wrapper.flip-left:hover>.card {transform: rotateY(-180deg);}
+
+.color{
+  color: rgb(252, 252, 252);
+}
