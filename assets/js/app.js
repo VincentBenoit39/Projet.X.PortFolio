@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // Author: Hoang Tran (https://www.facebook.com/profile.php?id=100004848287494)
 // Github verson (1 file .html): https://github.com/HoangTran0410/3DCarousel/blob/master/index.html
 
@@ -127,7 +127,6 @@ document.onmousewheel = function(e) {
 };
 
 
-=======
 var ctx = document.getElementById("myChart");
 var data = {
     labels: ["Website Design", "UX Design", "Marketing", "Javascript", "HTML & CSS", "Ruby on Rails", "Tech Demos", "Leading Teams"],
@@ -161,4 +160,3 @@ new Chart(ctx, {'type':'radar','data': data, 'options': {
 	pointDot : false,
 	datasetStrokeWidth : 1
 }});
->>>>>>> 507f331eb6805a61bedf2e96b57e479350ce329e
