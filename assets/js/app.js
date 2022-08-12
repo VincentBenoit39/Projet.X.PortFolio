@@ -1,14 +1,14 @@
 var ctx = document.getElementById("myChart");
 var data = {
-    labels: ["Website Design", "UX Design", "Marketing", "Javascript", "HTML & CSS", "Ruby on Rails", "Tech Demos", "Leading Teams"],
+    labels: ["PHP", "Javascript", "Laravel", "Sass", "HTML & CSS", "Bootstrap", "Git", "Wordpress"],
     datasets: [
         {
             label: "Relative Skill",
-            fillColor: "rgba(140,200,50,.4)",
-            strokeColor: "rgba(140,200,50,1)",
-            pointColor: "rgba(140,200,50,1)",
-            pointHighlightStroke: "rgba(140,200,50,1)",
-            data: [85, 75, 70, 80, 85, 60, 75, 50]
+            fillColor: "#fffff",
+            strokeColor: "#fffff",
+            pointColor: "#fffff",
+            pointHighlightStroke: "#fffff",
+            data: [55, 75, 60, 75, 95, 90, 80, 75]
         }
     ]
 };
