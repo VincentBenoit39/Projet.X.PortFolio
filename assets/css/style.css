@@ -88,8 +88,3 @@ a:hover{color:  var(--color) !important;transition: 0.2s ease-in !important;tran
 .color{
   color: rgb(252, 252, 252);
 }
-/* canvas{
-  height: 100vh !important;
-  width: 60vw !important;
-  color: #f4f1ed !important;
-} */
