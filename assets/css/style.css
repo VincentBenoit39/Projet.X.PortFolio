@@ -44,6 +44,7 @@ a:hover{color:  var(--color) !important;transition: 0.2s ease-in !important;tran
 }
 .card>.front, .card>.back{
   display: flex;
+  color: rgb(124, 24, 24) , rgba(200,200,200,.15);
 }
 .card>.front{
   position: relative;
@@ -87,3 +88,8 @@ a:hover{color:  var(--color) !important;transition: 0.2s ease-in !important;tran
 .color{
   color: rgb(252, 252, 252);
 }
+/* canvas{
+  height: 100vh !important;
+  width: 60vw !important;
+  color: #f4f1ed !important;
+} */
