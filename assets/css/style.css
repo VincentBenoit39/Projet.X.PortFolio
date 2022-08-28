@@ -36,3 +36,11 @@ a:hover{color:  var(--color) !important;transition: 0.2s ease-in !important;tran
 .card-wrapper.flip-left>.card>.back {transform: rotateY(-180deg);}
 .card-wrapper.flip-left:hover>.card {transform: rotateY(-180deg);}
 .color{color: rgb(252, 252, 252);}
+@media screen and (max-width: 550px) {
+  h1{font-size: 7rem !important;}
+  .passion{font-size: 2rem;}
+  .devh2{font-size: 3rem;}
+}
+@media screen and (max-width: 425px) {
+  h1{font-size: 5rem !important;}
+}
