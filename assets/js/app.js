@@ -25,22 +25,22 @@ var data = {
           }]
         };
 new Chart(ctx, {'type':'radar','data': data, options: {plugins: {legend: {display: false,}}} ,'options': {
-	animationSteps: 30,
+	animationSteps: 1,
 	animationEasing: "easeInOutExpo",
 	responsive: true,
 	showTooltips: true,
 	scaleOverride: true,
-    scaleSteps: 50,
-    scaleStepWidth: 20,
-    scaleStartValue: 20,
+    // scaleSteps: 1,
+    // scaleStepWidth: 1,
+    // scaleStartValue: 1,
     scaleLineColor: "rgba(200,200,200,.15)",
     angleShowLineOut: true,
-    angleLineWidth : 1,
+    // angleLineWidth : 1,
     angleLineColor : "rgba(200,200,250,.15)",
     pointLabelFontFamily : "'freight-sans-pro', Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif",
-    pointLabelFontSize : 20,
+    // pointLabelFontSize : 2,
 	pointLabelFontColor : "#99b",
 	pointDot : true,
-	datasetStrokeWidth : 50
+	// datasetStrokeWidth : 1
     
 }});
