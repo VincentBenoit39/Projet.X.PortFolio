@@ -5,23 +5,23 @@ var data = {
         {
             label: "Compétences",
             fill: true,
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-            borderColor: 'rgb(255, 99, 132)',
-            pointBackgroundColor: 'rgb(255, 99, 132)',
+            backgroundColor: '#26619c6a',
+            borderColor: '#26619c6a',
+            pointBackgroundColor: '#26619C',
             pointBorderColor: '#fff',
             pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgb(255, 99, 132)',
+            pointHoverBorderColor: '#26619C',
             data: [60, 75, 55, 60, 100, 85, 80, 45]
         }, {
-            label: 'My Second Dataset',
-            data: [10, 10, 10, 10, 10, 10, 10, 10],
+            label: '-',
+            data: [1, 1, 1, 1, 1, 1, 1, 1],
             fill: true,
-            backgroundColor: 'rgba(54, 162, 235, 0.2)',
-            borderColor: 'rgb(54, 162, 235)',
-            pointBackgroundColor: 'rgb(54, 162, 235)',
-            pointBorderColor: '#fff',
-            pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgb(54, 162, 235)'
+            backgroundColor: 'rgba(247, 247, 247, 0)',
+            borderColor: 'rgba(247, 247, 247, 0)',
+            pointBackgroundColor: 'rgba(247, 247, 247, 0)',
+            pointBorderColor: 'rgba(247, 247, 247, 0)',
+            pointHoverBackgroundColor: 'rgba(247, 247, 247, 0)',
+            pointHoverBorderColor: 'rgba(247, 247, 247, 0)'
           }]
         };
 new Chart(ctx, {'type':'radar','data': data, options: {plugins: {legend: {display: false,}}} ,'options': {
@@ -30,17 +30,17 @@ new Chart(ctx, {'type':'radar','data': data, options: {plugins: {legend: {displa
 	responsive: true,
 	showTooltips: true,
 	scaleOverride: true,
-    scaleSteps: 5,
-    scaleStepWidth: 100,
-    scaleStartValue: 50,
+    scaleSteps: 50,
+    scaleStepWidth: 20,
+    scaleStartValue: 20,
     scaleLineColor: "rgba(200,200,200,.15)",
     angleShowLineOut: true,
     angleLineWidth : 1,
     angleLineColor : "rgba(200,200,250,.15)",
     pointLabelFontFamily : "'freight-sans-pro', Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif",
-    pointLabelFontSize : 14,
+    pointLabelFontSize : 20,
 	pointLabelFontColor : "#99b",
-	pointDot : false,
-	datasetStrokeWidth : 1
+	pointDot : true,
+	datasetStrokeWidth : 50
     
 }});

@@ -86,5 +86,5 @@ a:hover{color:  var(--color) !important;transition: 0.2s ease-in !important;tran
 .card-wrapper.flip-left:hover>.card {transform: rotateY(-180deg);}
 
 .color{
-  color: rgb(252, 252, 252);
+  color: rgb(252, 252, 252) rgba(247, 247, 247, 0);
 }

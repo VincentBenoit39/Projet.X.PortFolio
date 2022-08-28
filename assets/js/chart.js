@@ -1267,9 +1267,9 @@ function set(root, scope, values) {
 class Defaults {
   constructor(_descriptors) {
     this.animation = undefined;
-    this.backgroundColor = 'rgba(0,0,0,0.1)';
-    this.borderColor = 'rgba(0,0,0,0.1)';
-    this.color = '#666';
+    this.backgroundColor = null;
+    this.borderColor = 'rgba(247, 247, 247, 0.23)';
+    this.color = '#ffff';
     this.datasets = {};
     this.devicePixelRatio = (context) => context.chart.platform.getDevicePixelRatio();
     this.elements = {};
@@ -1282,7 +1282,7 @@ class Defaults {
     ];
     this.font = {
       family: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
-      size: 12,
+      size: 16,
       style: 'normal',
       lineHeight: 1.2,
       weight: null
